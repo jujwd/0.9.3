@@ -1,0 +1,103 @@
+div {
+    display: flex;
+    background-color: #4b644a;
+    border: none;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Lucida Handwriting;
+}
+
+.pesquisar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    background-color: #B1CEB0;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+
+}
+
+.messenger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    background-color: #B1CEB0;
+}
+
+.notificacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    position: relative;
+    background-color: #B1CEB0;
+}
+
+span {
+    position: absolute;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    top: -20px;
+    right: -15px;
+    color: white;
+    font-size: 16px;
+    background-color: #49393B;
+    width: 25px;
+}
+
+.perfil {
+    background-image: url("https://i.scdn.co/image/ab6761610000e5ebd2657bcafcb300d90816523f");
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    border: none;
+    border-radius: 30px;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #B1CEB0;
+    border: none;
+    padding: 5px;
+    height: 25px;
+    border-radius: 30px;
+    bottom: -2px;
+    right: -5px;
+}
